@@ -3,7 +3,7 @@ name: learning-journal
 description: Use when the user wants to organize learned concepts, repeated technical questions, concise review notes, learning paths, or knowledge maps in Obsidian, especially across agent development, robotics, motor control, computer architecture, embedded systems, communication, and software. Use for maintaining the user's knowledge vault, not for unrelated coding tasks or silently collecting every conversation.
 ---
 
-# 学习足迹
+# learning-journal
 
 面向计算机学生，把零散技术问题整理成简洁、准确、相互关联的知识库。**只维护当前最终状态，不创建学习日志、周期复盘、提问流水账、变更历史或历史统计。** skill 名称里的 journal 不改变这个约定。
 
@@ -24,7 +24,7 @@ description: Use when the user wants to organize learned concepts, repeated tech
 
 ## 解释与可视化要求
 
-- 默认中文，保留技术英文名；用熟悉的语言，先说明解决什么问题，再解释为什么有效。类比后给出真实机制及适用边界。
+- 默认中文，保留技术英文名。采用词典式解释：直白、专业、简洁。首句用“所属类别＋区别性特征”给出定义，再说明必要的原理、用途和交互。避免循环定义、堆叠未解释术语、聊天铺垫、修辞和拟人化；默认不靠类比解释。借鉴词典的清晰与准确，不冒充或照抄牛津词典。
 - 组件交互要说明谁产生输入、谁处理、谁消费输出，以及传输的是数据、信号还是电能。必要时指出接口、协议和时序；不要把通信协议、物理接口、控制算法和芯片混为一谈。
 - 每个概念小节几分钟内可复习，相关概念优先同篇对比，主题过大或独立支线再拆为链接。图用于解释关系，不能替代原理。默认普通 Markdown、双向链接和 Mermaid 即可使用，无需 Dataview、Canvas 或付费插件。
 - 具体型号、引脚、电气参数、API 和协议版本需核对官方资料，核验用于保证准确性，默认不在笔记添加来源、参考资料栏目或外部引用；用户要求时再提供。查不到时保留不确定性，不编造参数。不要将示例控制图当成可直接接线的电路设计。
