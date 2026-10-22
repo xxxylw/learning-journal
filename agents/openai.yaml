@@ -1,0 +1,4 @@
+interface:
+  display_name: "学习足迹"
+  short_description: "在 Obsidian 中维护简明概念笔记、主题学习路线和组件交互知识地图"
+  default_prompt: "使用 $learning-journal，把当前讨论的知识整理到我的 Obsidian：合并重复概念，简明解释原理、实际用途与组件交互，只维护最终状态。"
